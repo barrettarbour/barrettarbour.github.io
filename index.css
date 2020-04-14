@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+}
+
+p {
+    font-family: "Comic Sans MS";
+}
+
+div {
+    background-color: yellow;
+    padding: 10px;
+    margin: 50px;
+}
