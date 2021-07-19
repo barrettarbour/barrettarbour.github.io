@@ -1,42 +1,88 @@
-<head>
-    <!-- This will show up on the tab in your browser -->
-    <title>Barrett Arbour</title>
-
-    <!-- This links your css file to the html -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-
-    <!-- font link -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <!-- This is the start of the "About" section -->
-    <div class="about">
-        <h1>Contact stuff will go here</h1>
-    </div>
-
-    <section class="container">
-        <div class="one">
-            <h1>Barrett Arbour.</h1> 
-                <h2> 2nd Year Computing at Queen's U | Software Design Specialization</h2>
-                <p> I haven't always loved computers, but I have always loved to learn. Now I get to learn how everything I love can be integrated with computers! </p>
-            </body>
+<html lang="en">
+    <head>
+      <title>Barrett Arbour</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display SC&display=swap" rel="stylesheet">
+      <link rel="icon" href="images/logo.png">
+      <link rel="stylesheet" href="styles.css">
+            
+      <style>
+        body {background: white; }
+      </style>
+          
+    </head>
+    <style>
+      @media only screen and (max-width: 600px) {
+        .image {
+          float: none;
+          margin: auto;
+        }
+      }
+      @media only screen and (max-width: 850px) {
+        .filler {
+          height: 20px;
+        }
+        .intro_div {
+          margin: auto;
+        }
+      }
+      @media only screen and (min-width: 1400px) {
+        .intro_div {
+          padding-left: 80px;
+          padding-top: 150px;
+        }
+      }
+      @media only screen and (max-width: 1200px) {
+        .main {
+          height: 850;
+        }
+      }
+    </style>
+    <body>
+      <div class="bar">
+        <div class="nav">
+          <div class="logo">
+            <div  class="logo_text">Barr.A</div>
+            <div  class="sm_green_circle"></div>
+          </div>
+          <div class="link">
+            <div  class="page_links">home</div>
+            <a href="html/portfolio.html" class="page_links">portfolio</a>
+          </div>
         </div>
-        <div class="two">
-            <body> 
-                <img class = "blob" src = "blobbs.png" alt="Profile Picture" width="550" height="550"> 
-                <img class = "profile" src = "Bart.jpg" alt="Profile Picture" width="200" height="200"> 
-            </body>
+      </div>
+
+      </div>
+      <div class="main">
+        <div class="image">
+          <div class="triangle-pink"></div>
+          <div class="triangle-yellow"></div>
+          <div  class="green_circle"></div>
+          <div  class="picture"></div>
+          <div class="smgreen-circle"></div>
         </div>
-    </section>
+        <div class="filler"></div>
+        <div class="intro_div">
+          <div class="header">
+            <div  class="yellow_bar"></div>
+            <div  class="title">
+              I’m Barrett
+            </div>
+          </div>
+          <div  class="intro"> 
+          a dorky software engineer who programs for fun!
+          </div>
+          <div class="green_bar">
+            <div  class="current-position"> 
+              Software Engineer @ Vision
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="footer">
 
-        
-    <section class="projects">
-        <div class="project">
-            <h1>Projects</h1>
-        </div>       
-    </section>
-
-
-    <!-- This is the start of the projects section -->
-</body>
+      </div>-->
+    </body>
+</html>
