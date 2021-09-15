@@ -1,6 +1,6 @@
 # barrettarbour.github.io
 Barrett Arbour's portfolio!
 
-Visit at barrettarbour.github.io
+Visit at [I'm an inline-style link](barrettarbour.github.io)
 
 
